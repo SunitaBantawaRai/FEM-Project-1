@@ -5,3 +5,106 @@
 }
 
 /* Global Variable */
+
+:root {
+  /* primary colors */
+  --Verydarkblue-mainbackground: hsl(233, 47%, 7%);
+  --Darkdesaturatedblue-cardbackground: hsl(244, 38%, 16%);
+  --Softviolet-accent: hsl(277, 64%, 61%);
+
+  /* neutral-colors */
+  --White-mainheading-stats: hsl(0, 0%, 100%);
+  --Slightlytransparentwhite-mainparagraph: hsla(0, 0%, 100%, 0.75);
+  --Slightlytransparentwhite-statheadings: hsla(0, 0%, 100%, 0.6);
+
+  /* fonts */
+  --font-family-1: "Inter", sans-serif;
+  --font-family-2: "Lexend Deca", sans-serif;
+  --fontweight-bold: 700;
+  --fontweight-regular: 400;
+
+  --borderradius: 0.5rem;
+}
+
+/* 
+======
+section
+======
+*/
+body {
+  min-height: 100vh;
+  background: var(--Verydarkblue-mainbackground);
+}
+.card-section {
+  width: 20rem;
+  display: grid;
+  place-items: center;
+  margin: 5rem auto;
+  background: var(--Darkdesaturatedblue-cardbackground);
+  border-bottom-left-radius: var(--borderradius);
+  border-bottom-right-radius: var(--borderradius);
+}
+.card-img {
+  width: 20rem;
+  height: 15rem;
+  object-fit: cover;
+  opacity: 0.5;
+  border-top-left-radius: var(--borderradius);
+  border-top-right-radius: var(--borderradius);
+}
+.img-container {
+  width: 20rem;
+  height: 15rem;
+  background: var(--Softviolet-accent);
+  border-top-left-radius: var(--borderradius);
+  border-top-right-radius: var(--borderradius);
+}
+.card-inf {
+  text-align: center;
+}
+.main-topic {
+  font-family: var(--font-family-1);
+  color: var(--White-mainheading-stats);
+  font-weight: var(--fontweight-bold);
+  font-size: 1.8rem;
+  padding: 2rem 1.5rem;
+  padding-bottom: 1.25rem;
+}
+.highlight {
+  color: var(--Softviolet-accent);
+}
+.info {
+  color: var(--Slightlytransparentwhite-mainparagraph);
+  font-family: var(--font-family-1);
+  line-height: 1.6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 0.94rem;
+}
+.statistics {
+  padding-top: 2rem;
+}
+.stat {
+  padding-bottom: 2.25rem;
+}
+.stat h3 {
+  color: var(--White-mainheading-stats);
+  font-family: var(--font-family-1);
+  font-size: 1.5rem;
+}
+.stat p {
+  color: var(--Slightlytransparentwhite-statheadings);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-family: var(--font-family-1);
+  padding-top: 0.5rem;
+}
+
+.attribution {
+  text-align: center;
+  color: var(--White-mainheading-stats);
+  padding-bottom: 1rem;
+}
+.name {
+  color: var(--Softviolet-accent);
+}
