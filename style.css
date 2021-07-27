@@ -141,7 +141,11 @@ body {
     text-align: left;
   }
 }
-
+/* 
+======
+footer/attribution
+======
+ */
 .attribution {
   text-align: center;
   color: var(--White-mainheading-stats);
