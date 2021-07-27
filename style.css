@@ -100,6 +100,48 @@ body {
   padding-top: 0.5rem;
 }
 
+@media screen and (min-width: 520px) {
+  .card-section {
+    width: 75vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: var(--borderradius);
+    margin: 6rem auto;
+  }
+  .card-img {
+    width: 32rem;
+    height: 25rem;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: var(--borderradius);
+  }
+  .img-container {
+    width: 32rem;
+    height: 25rem;
+    order: 2;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: var(--borderradius);
+  }
+  .card-inf {
+    text-align: start;
+    padding-right: 5rem;
+  }
+  .statistics {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 3rem;
+    padding-right: 4rem;
+  }
+  .main-topic,
+  .info,
+  .stat {
+    padding-left: 3.25rem;
+    text-align: left;
+  }
+}
+
 .attribution {
   text-align: center;
   color: var(--White-mainheading-stats);
