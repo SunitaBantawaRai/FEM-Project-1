@@ -90,7 +90,7 @@ body {
 .stat {
   padding-bottom: 2.25rem;
 }
-.stat h3 {
+.stat h2 {
   color: var(--White-mainheading-stats);
   font-family: var(--font-family-1);
   font-size: 1.5rem;
