@@ -23,7 +23,7 @@
   --fontweight-bold: 700;
   --fontweight-regular: 400;
 
-  --borderradius: 0.5rem;
+  --borderradius: 0.8rem;
 }
 
 /* 
@@ -42,6 +42,8 @@ body {
   background: var(--Darkdesaturatedblue-cardbackground);
   border-bottom-left-radius: var(--borderradius);
   border-bottom-right-radius: var(--borderradius);
+  border-top-left-radius: var(--borderradius);
+  border-top-right-radius: var(--borderradius);
   overflow: hidden;
 }
 .card-img {
@@ -122,20 +124,17 @@ body {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     border-top-left-radius: var(--borderradius);
-    margin-top: 6rem;
   }
   .card-img {
     width: 540px;
     height: 446px;
     border-top-left-radius: 0;
-    border-bottom-right-radius: var(--borderradius);
   }
   .img-container {
     width: 540px;
     height: 446px;
-    order: 2;
     border-top-left-radius: 0;
-    border-bottom-right-radius: var(--borderradius);
+    order: 2;
   }
   .card-inf {
     text-align: start;
