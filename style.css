@@ -49,6 +49,7 @@ body {
 .card-img {
   width: 20rem;
   height: 15rem;
+  -o-object-fit: cover;
   object-fit: cover;
   opacity: 0.5;
   border-top-left-radius: var(--borderradius);
@@ -119,7 +120,7 @@ body {
 
 @media screen and (min-width: 1320px) {
   .card-section {
-    width: 75vw;
+    width: 1080px;
     height: auto;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -159,7 +160,7 @@ body {
 }
 @media screen and (min-width: 1442px) {
   .card-section {
-    width: 70vw;
+    width: 84rem;
   }
   .card-img {
     width: 42rem;
