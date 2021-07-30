@@ -44,7 +44,6 @@ body {
   border-bottom-right-radius: var(--borderradius);
   border-top-left-radius: var(--borderradius);
   border-top-right-radius: var(--borderradius);
-  overflow: hidden;
 }
 .card-img {
   width: 20rem;
@@ -105,25 +104,10 @@ body {
 
 @media screen and (min-width: 768px) {
   .card-section {
-    width: 420px;
-    height: auto;
-  }
-  .card-img {
-    width: 420px;
-    height: 340px;
-  }
-  .img-container {
-    width: 420px;
-    height: 340px;
-  }
-}
-
-@media screen and (min-width: 1320px) {
-  .card-section {
     width: 1080px;
     height: auto;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr auto;
     border-top-left-radius: var(--borderradius);
   }
   .card-img {
